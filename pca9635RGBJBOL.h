@@ -1,7 +1,7 @@
 // safety againts double-include
 #ifndef pca9635RGBJBOL_h
 #define pca9635RGBJBOL_h
-#include <WProgram.h> 
+#include <Arduino.h> 
 #include <pca9635RGB.h>
 
 class pca9635RGBJBOL : public pca9635RGB
